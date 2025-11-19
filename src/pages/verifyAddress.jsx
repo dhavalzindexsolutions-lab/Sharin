@@ -1,7 +1,7 @@
 import verificationMobileIcon from "../assets/images/verification-mobile-icon.svg";
 import SmallHeader from "../molecules/Header/smallHeader";
 import MainTitle from "../molecules/AllTitles/mainTitle";
-import Footer from "../molecules/Footer/footerLinks";
+import Footer from '../molecules/Footer/footerLinks'
 import { Link } from "react-router";
 import CommonButton from "../molecules/Buttons/commonBtn";
 
