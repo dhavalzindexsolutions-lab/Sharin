@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Signup />} />
-          <Route path="/verify-address" element={<VerifyAddress />} />
-          <Route path="/email-confirmation" element={<EmailConfirmation />} />
-          <Route path="/create-account" element={<CreateAccount />} />
+          <Route path="/verifyAddress" element={<VerifyAddress />} />
+          <Route path="/emailConfirmation" element={<EmailConfirmation />} />
+          <Route path="/createAccount" element={<CreateAccount />} />
         </Routes>
       </BrowserRouter>
       {/* <Signup /> */}
