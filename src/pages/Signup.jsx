@@ -7,7 +7,7 @@ import MainTitle from "../molecules/AllTitles/mainTitle";
 import { Link } from "react-router";
 import CommonButton from "../molecules/Buttons/commonBtn";
 import Input from "../molecules/Input/Input";
-import FooterLinks from "../molecules/Footer/footerLinks";
+// import FooterLinks from "../molecules/Footer/footerLinks";
 
 const Signup = () => {
   return (
@@ -100,7 +100,7 @@ const Signup = () => {
                 </div>
               </div>
 
-              <FooterLinks />
+              {/* <FooterLinks /> */}
             </div>
           </div>
 
