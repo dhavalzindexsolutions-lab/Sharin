@@ -1,11 +1,11 @@
 import { useState } from "react";
-import SmallHeader from "../molecules/Header/SmallHeader";
-import MainTitle from "../molecules/AllTitles/mainTitle";
-import FooterLinks from "../molecules/Footer/footerLinks";
+import SmallHeader from "../molecules/header/SmallHeader";
+import MainTitle from "../molecules/allTitles/mainTitle";
+import FooterLinks from "../molecules/footer/footerLinks";
 import { Link } from "react-router";
-import CommonButton from "../molecules/Buttons/commonBtn";
-import Input from "../molecules/Input/Input";
-import Checkbox from "../molecules/Checkbox/Checkbox";
+import CommonButton from "../molecules/buttons/commonBtn";
+import Input from "../molecules/input/Input";
+import Checkbox from "../molecules/checkbox/Checkbox";
 
 const CreateAccount = () => {
   const [acceptTerms, setAcceptTerms] = useState(false);
