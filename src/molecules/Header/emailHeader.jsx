@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import emailHeaderIcon from "/src/assets/images/email-header-icon.svg";
+import emailHeaderIcon from "../../assets/images/email-header-icon.svg";
 
 
 const emailHeader = () => {

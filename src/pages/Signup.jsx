@@ -1,12 +1,12 @@
-import signup_img from "/src/assets/images/signup-mobile-img.png";
-import googleIcon from "/src/assets/images/google-icon.svg";
-import facebookIcon from "/src/assets/images/facebook-icon.svg";
-import SmallHeader from "/src/molecules/header/SmallHeader";
-import MainTitle from "/src/molecules/allTitles/MainTitle";
-import FooterLinks from "/src/molecules/footer/FooterLinks";
+import signup_img from "../assets/images/signup-mobile-img.png";
+import googleIcon from "../assets/images/google-icon.svg";
+import facebookIcon from "../assets/images/facebook-icon.svg";
+import SmallHeader from "../molecules/header/SmallHeader";
+import MainTitle from "../molecules/allTitles/MainTitle";
+import FooterLinks from "../molecules/footer/FooterLinks";
 import { Link } from "react-router";
-import CommonButton from "/src/molecules/buttons/CommonBtn";
-import Input from "/src/molecules/input/Input";
+import CommonButton from "../molecules/buttons/CommonBtn";
+import Input from "../molecules/input/Input";
 
 const Signup = () => {
   return (
