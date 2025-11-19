@@ -1,9 +1,9 @@
 import verificationMobileIcon from "../assets/images/verification-mobile-icon.svg";
 import SmallHeader from "../molecules/header/SmallHeader";
-import MainTitle from "../molecules/allTitles/mainTitle";
-import FooterLinks from "../molecules/footer/footerLinks";
+import MainTitle from "../molecules/allTitles/MainTitle";
+import FooterLinks from "../molecules/footer/FooterLinks";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/commonBtn";
+import CommonButton from "../molecules/buttons/CommonBtn";
 
 const verifyAddress = () => {
     return (
