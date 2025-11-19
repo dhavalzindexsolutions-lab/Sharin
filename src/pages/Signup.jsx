@@ -72,6 +72,9 @@ const Signup = () => {
                     </form>
                   </div>
 
+
+
+
                   {/* Footer Text */}
                   <div className="flex flex-col text-center gap-4 pt-8">
                     <div className="text-sm text-black">
