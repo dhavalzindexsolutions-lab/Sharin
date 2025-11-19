@@ -1,6 +1,6 @@
 import sharingLogo from "../assets/images/sharing-logo.svg";
-import EmailHeader from "../molecules/Header/emailHeader";
-import CommonButton from "../molecules/Buttons/commonBtn";
+import EmailHeader from "../molecules/Header/EmailHeader";
+import CommonButton from "../molecules/Buttons/CommonBtn";
 
 const emailConfirmation = () => {
     return (
