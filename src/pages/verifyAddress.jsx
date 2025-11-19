@@ -1,5 +1,5 @@
 import verificationMobileIcon from "../assets/images/verification-mobile-icon.svg";
-import SmallHeader from "../molecules/Header/SmallHeader";
+import SmallHeader from "../molecules/Header/smallHeader";
 import MainTitle from "../molecules/AllTitles/mainTitle";
 import Footer from "../molecules/Footer/Footer";
 import { Link } from "react-router";
