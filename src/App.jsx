@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import "./assets/fonts/fonts.css";
 import "./App.css";
 import Signup from "./pages/Signup";
-import VerifyAddress from "./pages/VerifyAddress";
-import EmailConfirmation from "./pages/EmailConfirmation";
-import CreateAccount from "./pages/CreateAccount";
+import VerifyAddress from "./pages/verifyAddress";
+import EmailConfirmation from "./pages/emailConfirmation";
+import CreateAccount from "./pages/createAccount";
 
 function App() {
   return (
