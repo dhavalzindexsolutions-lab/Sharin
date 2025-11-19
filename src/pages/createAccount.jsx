@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SmallHeader from "../molecules/Header/SmallHeader";
 import MainTitle from "../molecules/AllTitles/MainTitle";
-import Footer from "../molecules/Footer/Footer";
+import Footer from "../molecules/Footer/FooterLinks";
 import { Link } from "react-router";
 import CommonButton from "../molecules/Buttons/CommonBtn";
 import Input from "../molecules/Input/Input";
