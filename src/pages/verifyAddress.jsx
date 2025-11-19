@@ -1,9 +1,9 @@
-import verificationMobileIcon from "../assets/images/verification-mobile-icon.svg";
-import SmallHeader from "../molecules/header/SmallHeader";
-import MainTitle from "../molecules/allTitles/MainTitle";
-import FooterLinks from "../molecules/footer/FooterLinks";
+import verificationMobileIcon from "/src/assets/images/verification-mobile-icon.svg";
+import SmallHeader from "/src/molecules/header/SmallHeader";
+import MainTitle from "/src/molecules/allTitles/MainTitle";
+import FooterLinks from "/src/molecules/footer/FooterLinks";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/CommonBtn";
+import CommonButton from "/src/molecules/buttons/CommonBtn";
 
 const verifyAddress = () => {
     return (
@@ -31,7 +31,7 @@ const verifyAddress = () => {
 
                                     {/* Resend Buttons */}
                                     <div className="flex flex-col gap-3 mx-auto">
-                                        <CommonButton as="link" to="/email-confirmation" size="full" variant="secondary">
+                                        <CommonButton as="link" to="/emailConfirmation" size="full" variant="secondary">
                                         Invia di nuovo
                                         </CommonButton>
                                     </div>

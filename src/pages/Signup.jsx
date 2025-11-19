@@ -1,12 +1,12 @@
-import signup_img from "../assets/images/signup-mobile-img.png";
-import googleIcon from "../assets/images/google-icon.svg";
-import facebookIcon from "../assets/images/facebook-icon.svg";
-import SmallHeader from "../molecules/header/SmallHeader";
-import MainTitle from "../molecules/allTitles/MainTitle";
-import FooterLinks from "../molecules/footer/FooterLinks";
+import signup_img from "/src/assets/images/signup-mobile-img.png";
+import googleIcon from "/src/assets/images/google-icon.svg";
+import facebookIcon from "/src/assets/images/facebook-icon.svg";
+import SmallHeader from "/src/molecules/header/SmallHeader";
+import MainTitle from "/src/molecules/allTitles/MainTitle";
+import FooterLinks from "/src/molecules/footer/FooterLinks";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/CommonBtn";
-import Input from "../molecules/input/Input";
+import CommonButton from "/src/molecules/buttons/CommonBtn";
+import Input from "/src/molecules/input/Input";
 
 const Signup = () => {
   return (
@@ -26,7 +26,7 @@ const Signup = () => {
                   {/* Social Buttons */}
                   <div className="flex flex-col gap-3 w-full max-w-sm mx-auto">
                     {/* Google */}
-                    <CommonButton as="link" to="/verify-address" size="full" variant="secondary">
+                    <CommonButton as="link" to="/verifyAddress" size="full" variant="secondary">
                       <img
                         src={googleIcon}
                         alt="googleIcon"
@@ -35,7 +35,7 @@ const Signup = () => {
                       Continua con Google
                     </CommonButton>
                     {/* Facebook */}
-                    <CommonButton as="link" to="/verify-address" size="full" variant="secondary">
+                    <CommonButton as="link" to="/verifyAddress" size="full" variant="secondary">
                       <img
                         src={facebookIcon}
                         alt="facebookIcon"
@@ -64,7 +64,7 @@ const Signup = () => {
 
                       {/* Continua */}
                       <div className="">
-                        <CommonButton as="link" to="/verify-address" size="full" variant="primary">
+                        <CommonButton as="link" to="/verifyAddress" size="full" variant="primary">
                           Continua
                         </CommonButton>
                       </div>
@@ -76,7 +76,7 @@ const Signup = () => {
                     <div className="text-sm text-black">
                       <p>
                         Hai già un account Sharin?{" "}
-                        <Link to="/create-account" className="hover:underline font-semibold">
+                        <Link to="/createAccount" className="hover:underline font-semibold">
                           Accedi
                         </Link>
                       </p>
