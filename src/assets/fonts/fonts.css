@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'InterRegular';
+    src: url('InterRegular.eot');
+    src: url('InterRegular.eot') format('embedded-opentype'),
+         url('InterRegular.woff2') format('woff2'),
+         url('InterRegular.woff') format('woff'),
+         url('InterRegular.ttf') format('truetype'),
+         url('InterRegular.svg#InterRegular') format('svg');
+}
+@font-face {
+    font-family: 'InterItalic';
+    src: url('InterItalic.eot');
+    src: url('InterItalic.eot') format('embedded-opentype'),
+         url('InterItalic.woff2') format('woff2'),
+         url('InterItalic.woff') format('woff'),
+         url('InterItalic.ttf') format('truetype'),
+         url('InterItalic.svg#InterItalic') format('svg');
+}
+@font-face {
+    font-family: 'InterMedium';
+    src: url('InterMedium.eot');
+    src: url('InterMedium.eot') format('embedded-opentype'),
+         url('InterMedium.woff2') format('woff2'),
+         url('InterMedium.woff') format('woff'),
+         url('InterMedium.ttf') format('truetype'),
+         url('InterMedium.svg#InterMedium') format('svg');
+}
+@font-face {
+    font-family: 'InterMediumItalic';
+    src: url('InterMediumItalic.eot');
+    src: url('InterMediumItalic.eot') format('embedded-opentype'),
+         url('InterMediumItalic.woff2') format('woff2'),
+         url('InterMediumItalic.woff') format('woff'),
+         url('InterMediumItalic.ttf') format('truetype'),
+         url('InterMediumItalic.svg#InterMediumItalic') format('svg');
+}
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('InterSemiBold.eot');
+    src: url('InterSemiBold.eot') format('embedded-opentype'),
+         url('InterSemiBold.woff2') format('woff2'),
+         url('InterSemiBold.woff') format('woff'),
+         url('InterSemiBold.ttf') format('truetype'),
+         url('InterSemiBold.svg#InterSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'InterSemiBoldItalic';
+    src: url('InterSemiBoldItalic.eot');
+    src: url('InterSemiBoldItalic.eot') format('embedded-opentype'),
+         url('InterSemiBoldItalic.woff2') format('woff2'),
+         url('InterSemiBoldItalic.woff') format('woff'),
+         url('InterSemiBoldItalic.ttf') format('truetype'),
+         url('InterSemiBoldItalic.svg#InterSemiBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'InterBold';
+    src: url('InterBold.eot');
+    src: url('InterBold.eot') format('embedded-opentype'),
+         url('InterBold.woff2') format('woff2'),
+         url('InterBold.woff') format('woff'),
+         url('InterBold.ttf') format('truetype'),
+         url('InterBold.svg#InterBold') format('svg');
+}
+@font-face {
+    font-family: 'InterBoldItalic';
+    src: url('InterBoldItalic.eot');
+    src: url('InterBoldItalic.eot') format('embedded-opentype'),
+         url('InterBoldItalic.woff2') format('woff2'),
+         url('InterBoldItalic.woff') format('woff'),
+         url('InterBoldItalic.ttf') format('truetype'),
+         url('InterBoldItalic.svg#InterBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'InterBlack';
+    src: url('InterBlack.eot');
+    src: url('InterBlack.eot') format('embedded-opentype'),
+         url('InterBlack.woff2') format('woff2'),
+         url('InterBlack.woff') format('woff'),
+         url('InterBlack.ttf') format('truetype'),
+         url('InterBlack.svg#InterBlack') format('svg');
+}
+@font-face {
+    font-family: 'InterBlackItalic';
+    src: url('InterBlackItalic.eot');
+    src: url('InterBlackItalic.eot') format('embedded-opentype'),
+         url('InterBlackItalic.woff2') format('woff2'),
+         url('InterBlackItalic.woff') format('woff'),
+         url('InterBlackItalic.ttf') format('truetype'),
+         url('InterBlackItalic.svg#InterBlackItalic') format('svg');
+}
+@font-face {
+    font-family: 'FKScreamerTrialRegular';
+    src: url('FKScreamerTrialRegular.eot');
+    src: url('FKScreamerTrialRegular.eot') format('embedded-opentype'),
+         url('FKScreamerTrialRegular.woff2') format('woff2'),
+         url('FKScreamerTrialRegular.woff') format('woff'),
+         url('FKScreamerTrialRegular.ttf') format('truetype'),
+         url('FKScreamerTrialRegular.svg#FKScreamerTrialRegular') format('svg');
+}
+@font-face {
+    font-family: 'FKScreamerTrialMedium';
+    src: url('FKScreamerTrialMedium.eot');
+    src: url('FKScreamerTrialMedium.eot') format('embedded-opentype'),
+         url('FKScreamerTrialMedium.woff2') format('woff2'),
+         url('FKScreamerTrialMedium.woff') format('woff'),
+         url('FKScreamerTrialMedium.ttf') format('truetype'),
+         url('FKScreamerTrialMedium.svg#FKScreamerTrialMedium') format('svg');
+}
+@font-face {
+    font-family: 'FKScreamerTrialBold';
+    src: url('FKScreamerTrialBold.eot');
+    src: url('FKScreamerTrialBold.eot') format('embedded-opentype'),
+         url('FKScreamerTrialBold.woff2') format('woff2'),
+         url('FKScreamerTrialBold.woff') format('woff'),
+         url('FKScreamerTrialBold.ttf') format('truetype'),
+         url('FKScreamerTrialBold.svg#FKScreamerTrialBold') format('svg');
+}
+@font-face {
+    font-family: 'FKScreamerTrialBlack';
+    src: url('FKScreamerTrialBlack.eot');
+    src: url('FKScreamerTrialBlack.eot') format('embedded-opentype'),
+         url('FKScreamerTrialBlack.woff2') format('woff2'),
+         url('FKScreamerTrialBlack.woff') format('woff'),
+         url('FKScreamerTrialBlack.ttf') format('truetype'),
+         url('FKScreamerTrialBlack.svg#FKScreamerTrialBlack') format('svg');
+}
