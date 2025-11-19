@@ -1,9 +1,9 @@
 import { useState } from "react";
 import SmallHeader from "../molecules/Header/smallHeader";
-import MainTitle from "../molecules/AllTitles/MainTitle";
+import MainTitle from "../molecules/AllTitles/mainTitle";
 import FooterLinks from "../molecules/Footer/footerLinks";
 import { Link } from "react-router";
-import CommonButton from "../molecules/Buttons/CommonBtn";
+import CommonButton from "../molecules/Buttons/commonBtn";
 import Input from "../molecules/Input/Input";
 import Checkbox from "../molecules/Checkbox/Checkbox";
 
