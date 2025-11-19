@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router";
 
 const FooterLinks = () => {
-  const currentYear = new Date().getFullYear();
+  // const currentYear = new Date().getFullYear();
 
   const items = [
     { label: "Termini e condizioni", to: "#" },
     { label: "Privacy Policy", to: "#" },
     { label: "Norme sui Cookie", to: "#" },
-    { label: `© ${currentYear} Sharin Srl` }, // plain text, no link
+    // { label: `© ${currentYear} Sharin Srl` }, // plain text, no link
   ];
 
   return (
