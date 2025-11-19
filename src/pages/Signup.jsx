@@ -1,13 +1,12 @@
 import signup_img from "../assets/images/signup-mobile-img.png";
 import googleIcon from "../assets/images/google-icon.svg";
 import facebookIcon from "../assets/images/facebook-icon.svg";
-import SmallHeader from "../molecules/Header/smallHeader";
+import SmallHeader from "../molecules/Header/SmallHeader";
 import MainTitle from "../molecules/AllTitles/mainTitle";
-// import FooterLinks from "../molecules/Footer/footerLinks";
+import FooterLinks from "../molecules/Footer/footerLinks";
 import { Link } from "react-router";
 import CommonButton from "../molecules/Buttons/commonBtn";
 import Input from "../molecules/Input/Input";
-// import FooterLinks from "../molecules/Footer/footerLinks";
 
 const Signup = () => {
   return (
@@ -72,9 +71,6 @@ const Signup = () => {
                     </form>
                   </div>
 
-
-
-
                   {/* Footer Text */}
                   <div className="flex flex-col text-center gap-4 pt-8">
                     <div className="text-sm text-black">
@@ -103,7 +99,7 @@ const Signup = () => {
                 </div>
               </div>
 
-              {/* <FooterLinks /> */}
+              <FooterLinks />
             </div>
           </div>
 
