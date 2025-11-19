@@ -1,7 +1,7 @@
 import signup_img from "../assets/images/signup-mobile-img.png";
 import googleIcon from "../assets/images/google-icon.svg";
 import facebookIcon from "../assets/images/facebook-icon.svg";
-import SmallHeader from "../molecules/Header/SmallHeader";
+import SmallHeader from "../molecules/Header/smallHeader";
 import MainTitle from "../molecules/AllTitles/mainTitle";
 import Footer from "../molecules/Footer/Footer";
 import { Link } from "react-router";

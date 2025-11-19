@@ -19,7 +19,7 @@ const emailHeader = () => {
                         <div className="inline-flex flex-wrap flex-col text-sm">
                             <strong>Sharin</strong>
                             <p>Verifica il tuo indirizzo email</p>
-                            <p>To: <Link to="mailto:matteo@mozestudio.com" className='text-neutral-500 hover:text-black'>matteo@mozestudio.com</Link></p>
+                            <p>To: <Link to="mailto:matteo@mozestudio.com" className='text-neutral-500 font-intermedium hover:text-black'>matteo@mozestudio.com</Link></p>
                         </div>
                     </div>
 
