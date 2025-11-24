@@ -1,9 +1,9 @@
 import verificationMobileIcon from "../assets/images/verification-mobile-icon.svg";
-import SmallHeader from "../molecules/header/smallHeader";
-import MainTitle from "../molecules/alltitles/mainTitle";
-import FooterLinks from "../molecules/footer/footerLinks";
+import SmallHeader from "../molecules/smallHeader";
+import MainTitle from "../molecules/mainTitle";
+import Footer from "../molecules/footer";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/commonBtn";
+import Button from "../molecules/button";
 
 const verifyAddress = () => {
     return (
@@ -25,20 +25,20 @@ const verifyAddress = () => {
                                     <MainTitle titleText="Verifica la tua email" className="!mb-2" />
 
                                     {/* verifyEmailAddress */}
-                                    <div className="block pb-8 font-interregular text-black text-center">
+                                    <div className="block pb-8 font-normal text-black text-center">
                                         <p>Abbiamo inviato un link per verificare la tua email a <br/><Link to="mailto:matteo@mozestudio.com" className="hover:text-sky-600"><strong>matteo@mozestudio.com</strong></Link></p>
                                     </div>
 
                                     {/* Resend Buttons */}
                                     <div className="flex flex-col gap-3 mx-auto">
-                                        <CommonButton as="link" to="/emailConfirmation" size="full" variant="secondary">
+                                        <Button as="link" to="/email-confirmation" size="full" variant="subduded">
                                         Invia di nuovo
-                                        </CommonButton>
+                                        </Button>
                                     </div>
                                 </div>
                             </div>
 
-                            <FooterLinks />
+                            <Footer />
                         </div>
                     </div>
                 </div>

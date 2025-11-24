@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router'
-import emailHeaderIcon from "../../assets/images/email-header-icon.svg";
+import emailHeaderIcon from "../assets/images/email-header-icon.svg";
 
 
 const emailHeader = () => {
     return (
         <>
             <div className="block px-4 lg:px-6">
-                <div className="flex flex-wrap justify-between py-4 lg:py-6 gap-y-2 gap-x-4 border-b border-neutral-300">
+                <div className="flex flex-wrap justify-between py-4 lg:py-6 gap-y-2 gap-x-4 border-b border-subduded-300">
                     {/* Logo */}
                     <div className="inline-flex flex-wrap items-start gap-2.5">
                         <img
@@ -19,7 +19,7 @@ const emailHeader = () => {
                         <div className="inline-flex flex-wrap flex-col text-sm">
                             <strong>Sharin</strong>
                             <p>Verifica il tuo indirizzo email</p>
-                            <p>To: <Link to="mailto:matteo@mozestudio.com" className='text-neutral-500 font-intermedium hover:text-black'>matteo@mozestudio.com</Link></p>
+                            <p>To: <Link to="mailto:matteo@mozestudio.com" className='text-subduded-500 hover:text-black'>matteo@mozestudio.com</Link></p>
                         </div>
                     </div>
 

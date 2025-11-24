@@ -7,25 +7,25 @@
   --color-antiFlashWhite: var(--antiFlashWhite);
   --color-lightSilver: var(--lightSilver);
 
-  /* Neutral */
-  --color-neutral-100: var(--color-neutral-100);
-  --color-neutral-200: var(--color-neutral-200);
-  --color-neutral-300: var(--color-neutral-300);
-  --color-neutral-400: var(--color-neutral-400);
-  --color-neutral-500: var(--color-neutral-500);
-  --color-neutral-600: var(--color-neutral-600);
-  --color-neutral-700: var(--color-neutral-700);
-  --color-neutral-800: var(--color-neutral-800);
+  /* subduded */
+  --color-subduded-100: var(--color-subduded-100);
+  --color-subduded-200: var(--color-subduded-200);
+  --color-subduded-300: var(--color-subduded-300);
+  --color-subduded-400: var(--color-subduded-400);
+  --color-subduded-500: var(--color-subduded-500);
+  --color-subduded-600: var(--color-subduded-600);
+  --color-subduded-700: var(--color-subduded-700);
+  --color-subduded-800: var(--color-subduded-800);
 
   /* Yellow */
-  --color-yellow-100: var(--color-yellow-100);
-  --color-yellow-200: var(--color-yellow-200);
-  --color-yellow-300: var(--color-yellow-300);
-  --color-yellow-400: var(--color-yellow-400);
-  --color-yellow-500: var(--color-yellow-500);
-  --color-yellow-600: var(--color-yellow-600);
-  --color-yellow-700: var(--color-yellow-700);
-  --color-yellow-800: var(--color-yellow-800);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
 
   /* Green */
   --color-green-100: var(--color-green-100);
@@ -58,14 +58,14 @@
   --color-purple-800: var(--color-purple-800);
 
   /* Red */
-  --color-red-100: var(--color-red-100);
-  --color-red-200: var(--color-red-200);
-  --color-red-300: var(--color-red-300);
-  --color-red-400: var(--color-red-400);
-  --color-red-500: var(--color-red-500);
-  --color-red-600: var(--color-red-600);
-  --color-red-700: var(--color-red-700);
-  --color-red-800: var(--color-red-800);
+  --color-critical-100: var(--color-critical-100);
+  --color-critical-200: var(--color-critical-200);
+  --color-critical-300: var(--color-critical-300);
+  --color-critical-400: var(--color-critical-400);
+  --color-critical-500: var(--color-critical-500);
+  --color-critical-600: var(--color-critical-600);
+  --color-critical-700: var(--color-critical-700);
+  --color-critical-800: var(--color-critical-800);
 
   /* --breakpoint-xxs: 389px;
   --breakpoint-sm: 640px;
@@ -115,7 +115,7 @@
   --z-9: 9;
 
   /* ✅ Font variable */
-  --font-interregular: "InterRegular", sans-serif;
+  /* --font-interregular: "InterRegular", sans-serif;
   --font-interitalic: "InterItalic", sans-serif;
   --font-intermedium: "InterMedium", sans-serif;
   --font-intermediumitalic: "InterMediumItalic", sans-serif;
@@ -124,7 +124,8 @@
   --font-interbold: "InterBold", sans-serif;
   --font-interbolditalic: "InterBoldItalic", sans-serif;
   --font-interblack: "InterBlack", sans-serif;
-  --font-interblackitalic: "InterBlackItalic", sans-serif;
+  --font-interblackitalic: "InterBlackItalic", sans-serif; */
+  --font-body: "Inter", sans-serif;
   --font-fkscreamerregular: "FKScreamerTrialRegular", sans-serif;
   --font-fkscreamermedium: "FKScreamerTrialMedium", sans-serif;
   --font-fkscreamerbold: "FKScreamerTrialBold", sans-serif;
@@ -135,7 +136,7 @@
   --leading-180: 180%;
 
   /* shadow */
-  --shadow-focus: 0 0 0 2px var(--neutral-800);
+  --shadow-focus: 0 0 0 2px var(--subduded-800);
 
 
   --size-60px: 60px;
@@ -152,25 +153,25 @@
     --antiFlashWhite: #f1f1f1;
     --lightSilver: #d7d7d7;
 
-    /* Neutral */
-    --color-neutral-100: #f1f1f1;
-    --color-neutral-200: #e9e9e9;
-    --color-neutral-300: #d9d9d9;
-    --color-neutral-400: #afafaf;
-    --color-neutral-500: #767676;
-    --color-neutral-600: #4a4a4a;
-    --color-neutral-700: #2b2b2b;
-    --color-neutral-800: #191919;
+    /* subduded */
+    --color-subduded-100: #f1f1f1;
+    --color-subduded-200: #e9e9e9;
+    --color-subduded-300: #d9d9d9;
+    --color-subduded-400: #afafaf;
+    --color-subduded-500: #767676;
+    --color-subduded-600: #4a4a4a;
+    --color-subduded-700: #2b2b2b;
+    --color-subduded-800: #191919;
 
     /* Yellow */
-    --color-yellow-100: #fffdf0;
-    --color-yellow-200: #fff6b6;
-    --color-yellow-300: #ffe7d0;
-    --color-yellow-400: #ffe943;
-    --color-yellow-500: #ffe30a;
-    --color-yellow-600: #d0b800;
-    --color-yellow-700: #978600;
-    --color-yellow-800: #5d5300;
+    --color-primary-100: #fffdf0;
+    --color-primary-200: #fff6b6;
+    --color-primary-300: #ffe7d0;
+    --color-primary-400: #ffe943;
+    --color-primary-500: #ffe30a;
+    --color-primary-600: #d0b800;
+    --color-primary-700: #978600;
+    --color-primary-800: #5d5300;
 
     /* Green */
     --color-green-100: #d5f7c6;
@@ -203,14 +204,14 @@
     --color-purple-800: #2908a9;
 
     /* Red */
-    --color-red-100: #ffa49a;
-    --color-red-200: #ff8273;
-    --color-red-300: #fe604c;
-    --color-red-400: #fc351b;
-    --color-red-500: #e01f04;
-    --color-red-600: #ac1905;
-    --color-red-700: #7a1304;
-    --color-red-800: #480c03;
+    --color-critical-100: #ffa49a;
+    --color-critical-200: #ff8273;
+    --color-critical-300: #fe604c;
+    --color-critical-400: #fc351b;
+    --color-critical-500: #e01f04;
+    --color-critical-600: #ac1905;
+    --color-critical-700: #7a1304;
+    --color-critical-800: #480c03;
   }
 
   html {
@@ -218,7 +219,7 @@
   }
 
   body {
-    @apply font-interregular text-16 leading-normal text-black bg-white;
+    @apply font-body text-16 leading-normal text-black bg-white;
   }
 
   a {
@@ -256,11 +257,11 @@
 
 b,
 strong {
-  @apply font-interbold font-normal;
+  @apply font-body font-normal;
 }
 
 .shadow-focus {
-  box-shadow: 0 0 0 2px var(--neutral-800);
+  box-shadow: 0 0 0 2px var(--subduded-800);
 }
 
 /* buttons */

@@ -1,5 +1,5 @@
 export const colorPrimitives = {
-  neutral: {
+  subduded: {
     100: "#F1F1F1",
     200: "#E9E9E9",
     300: "#D9D9D9",
@@ -10,7 +10,7 @@ export const colorPrimitives = {
     800: "#191919",
   },
 
-  yellow: {
+  primary: {
     100: "#FFFDF0",
     200: "#FFF6B6",
     300: "#FFE7D0",
@@ -54,7 +54,7 @@ export const colorPrimitives = {
     800: "#2908A9",
   },
 
-  red: {
+  critical: {
     100: "#FFA49A",
     200: "#FF8273",
     300: "#FE604C",

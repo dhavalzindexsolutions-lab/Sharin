@@ -136,5 +136,4 @@ Any updates to tokens or components will have immediate impact on the entire UI 
 
 **Author:** SharinApp  
 **License:** MIT  
-**Version:** 0.1.0# Sharin
-# Sharin
+**Version:** 0.1.0

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'InterRegular';
     src: url('InterRegular.eot');
     src: url('InterRegular.eot') format('embedded-opentype'),
@@ -87,7 +87,7 @@
          url('InterBlackItalic.woff') format('woff'),
          url('InterBlackItalic.ttf') format('truetype'),
          url('InterBlackItalic.svg#InterBlackItalic') format('svg');
-}
+} */
 @font-face {
     font-family: 'FKScreamerTrialRegular';
     src: url('FKScreamerTrialRegular.eot');

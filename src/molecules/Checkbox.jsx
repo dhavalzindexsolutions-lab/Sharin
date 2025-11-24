@@ -1,4 +1,4 @@
-
+import { useState } from "react";
 
 const Checkbox = ({ label, onChange, checked, className = "" }) => {
   return (
@@ -17,7 +17,7 @@ const Checkbox = ({ label, onChange, checked, className = "" }) => {
         className={`
           w-6 h-6 -mt-0.5 rounded-md flex items-center justify-center
           transition-all duration-200
-          ${checked ? "bg-black" : "border border-neutral-400 bg-white"}
+          ${checked ? "bg-black" : "border border-subduded-400 bg-white"}
         `}
       >
         {/* White Tick Icon */}
@@ -38,7 +38,7 @@ const Checkbox = ({ label, onChange, checked, className = "" }) => {
       </div>
 
       {/* The Label */}
-      <span className="text-sm text-neutral-600">
+      <span className="text-sm text-subduded-600">
         {label}
       </span>
     </label>

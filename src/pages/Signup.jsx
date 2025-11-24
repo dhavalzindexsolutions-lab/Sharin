@@ -1,12 +1,12 @@
 import signup_img from "../assets/images/signup-mobile-img.png";
 import googleIcon from "../assets/images/google-icon.svg";
 import facebookIcon from "../assets/images/facebook-icon.svg";
-import SmallHeader from "../molecules/header/smallHeader";
-import MainTitle from "../molecules/alltitles/mainTitle";
-import FooterLinks from "../molecules/footer/footerLinks";
+import SmallHeader from "../molecules/smallHeader";
+import MainTitle from "../molecules/mainTitle";
+import Footer from "../molecules/footer";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/commonBtn";
-import Input from "../molecules/input/input";
+import Button from "../molecules/button";
+import Input from "../molecules/Input";
 
 const Signup = () => {
   return (
@@ -26,27 +26,37 @@ const Signup = () => {
                   {/* Social Buttons */}
                   <div className="flex flex-col gap-3 w-full max-w-sm mx-auto">
                     {/* Google */}
-                    <CommonButton as="link" to="/verifyAddress" size="full" variant="secondary">
+                    <Button
+                      as="link"
+                      to="/verify-address"
+                      size="full"
+                      variant="subduded"
+                    >
                       <img
                         src={googleIcon}
                         alt="googleIcon"
                         className="size-5"
                       />
                       Continua con Google
-                    </CommonButton>
+                    </Button>
                     {/* Facebook */}
-                    <CommonButton as="link" to="/verifyAddress" size="full" variant="secondary">
+                    <Button
+                      as="link"
+                      to="/verify-address"
+                      size="full"
+                      variant="subduded"
+                    >
                       <img
                         src={facebookIcon}
                         alt="facebookIcon"
                         className="size-5"
                       />
                       Continua con Facebook
-                    </CommonButton>
+                    </Button>
                   </div>
 
                   {/* Divider */}
-                  <div className="block py-6 font-intermedium text-neutral-500 text-sm text-center">
+                  <div className="block py-6 font-medium text-subduded-500 text-sm text-center">
                     <p>Oppure</p>
                   </div>
 
@@ -54,19 +64,19 @@ const Signup = () => {
                   <div className="w-full">
                     <form className="space-y-4">
                       <div className="">
-                        <Input
-                          type="email"
-                          placeholder="Inserisci il tuo indirizzo email"
-                          required
-                          error="Inserisci un indirizzo email valido"
-                        />
+                        <Input type="email" size="lg" placeholder="Inserisci il tuo indirizzo email" variant="outline" error={true} errorMessage="Inserisci un indirizzo email valido" />
                       </div>
 
                       {/* Continua */}
                       <div className="">
-                        <CommonButton as="link" to="/verifyAddress" size="full" variant="primary">
+                        <Button
+                          as="link"
+                          to="/verify-address"
+                          size="full"
+                          variant="fill"
+                        >
                           Continua
-                        </CommonButton>
+                        </Button>
                       </div>
                     </form>
                   </div>
@@ -76,13 +86,16 @@ const Signup = () => {
                     <div className="text-sm text-black">
                       <p>
                         Hai già un account Sharin?{" "}
-                        <Link to="/createAccount" className="hover:underline font-semibold">
+                        <Link
+                          to="/create-account"
+                          className="hover:underline font-semibold"
+                        >
                           Accedi
                         </Link>
                       </p>
                     </div>
 
-                    <div className="text-xs text-neutral-500 max-w-3xs mx-auto">
+                    <div className="text-xs text-subduded-500 max-w-3xs mx-auto">
                       <p>
                         Procedendo, accetti i{" "}
                         <Link to="/" className="hover:text-black underline">
@@ -98,8 +111,7 @@ const Signup = () => {
                   </div>
                 </div>
               </div>
-
-              <FooterLinks />
+              <Footer />
             </div>
           </div>
 

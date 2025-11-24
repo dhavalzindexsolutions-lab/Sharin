@@ -1,11 +1,12 @@
 import { useState } from "react";
-import SmallHeader from "../molecules/header/smallHeader";
-import MainTitle from "../molecules/alltitles/mainTitle";
-import FooterLinks from "../molecules/footer/footerLinks";
+// import SmallHeader from "../molecules/Header/SmallHeader";
+import SmallHeader from "../molecules/smallHeader";
+import MainTitle from "../molecules/mainTitle";
+import Footer from "../molecules/footer";
 import { Link } from "react-router";
-import CommonButton from "../molecules/buttons/commonBtn";
-import Input from "../molecules/input/input";
-import Checkbox from "../molecules/checkbox/checkbox";
+import Button from "../molecules/button";
+import Input from "../molecules/Input";
+import Checkbox from "../molecules/Checkbox";
 
 const CreateAccount = () => {
   const [acceptTerms, setAcceptTerms] = useState(false);
@@ -78,15 +79,15 @@ const CreateAccount = () => {
                   />
 
                   {/* Submit Button */}
-                  <CommonButton size="full" variant="primary">
+                  <Button size="full" variant="fill">
                     Crea il tuo account
-                  </CommonButton>
+                  </Button>
                 </form>
               </div>
             </div>
           </div>
 
-          <FooterLinks />
+          <Footer />
         </div>
       </div>
     </div>
