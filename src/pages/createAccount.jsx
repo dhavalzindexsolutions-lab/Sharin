@@ -5,7 +5,7 @@ import Input from "../molecules/Input";
 import Checkbox from "../molecules/Checkbox";
 import FieldGroup from "../molecules/FieldGroup";
 import TextBlock from "../molecules/TextBlock";
-import SmallHeader from "../molecules/Header/SmallHeader";
+import SmallHeader from "../molecules/Header";
 import FooterLinks from "../molecules/Footer";
 import Button from "../molecules/Buttons";
 
