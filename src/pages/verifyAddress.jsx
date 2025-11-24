@@ -2,7 +2,7 @@ import verificationMobileIcon from "../assets/images/verification-mobile-icon.sv
 import { Link } from "react-router";
 import Button from "../molecules/Buttons";
 import TextBlock from "../molecules/TextBlock";
-import SmallHeader from "../molecules/SmallHeader";
+import SmallHeader from "../molecules/Header/SmallHeader";
 import FooterLinks from "../molecules/Footer";
 // import FooterLinks from "../molecules/Footer/Footer";
 
