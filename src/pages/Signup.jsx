@@ -6,7 +6,7 @@ import Button from "../molecules/Buttons";
 import Input from "../molecules/Input";
 import TextBlock from "../molecules/TextBlock";
 import TextLink from "../molecules/TextLink";
-import SmallHeader from "../molecules/Header/SmallHeader";
+import SmallHeader from "../molecules/SmallHeader";
 import FooterLinks from "../molecules/Footer";
 
 const Signup = () => {

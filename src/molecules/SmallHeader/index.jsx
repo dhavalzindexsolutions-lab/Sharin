@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
-import mainLogo from "../../../assets/images/logo.svg";
-import questionCircle from "../../../assets/images/question-circle-icon.svg";
-import Button from "../../Buttons";
+import mainLogo from "../../assets/images/logo.svg";
+import questionCircle from "../../assets/images/question-circle-icon.svg";
+import Button from "../Buttons";
 
 const SmallHeader = () => {
   return (
