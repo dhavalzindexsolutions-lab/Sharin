@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router'
-import emailHeaderIcon from "../assets/images/email-header-icon.svg";
+import emailHeaderIcon from "../../assets/images/email-header-icon.svg";
 
 
-const emailHeader = () => {
+const EmailHeader = () => {
     return (
         <>
             <div className="block px-4 lg:px-6">
@@ -33,4 +33,4 @@ const emailHeader = () => {
     )
 }
 
-export default emailHeader
+export default EmailHeader

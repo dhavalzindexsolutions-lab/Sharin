@@ -126,10 +126,10 @@
   --font-interblack: "InterBlack", sans-serif;
   --font-interblackitalic: "InterBlackItalic", sans-serif; */
   --font-body: "Inter", sans-serif;
-  --font-fkscreamerregular: "FKScreamerTrialRegular", sans-serif;
-  --font-fkscreamermedium: "FKScreamerTrialMedium", sans-serif;
-  --font-fkscreamerbold: "FKScreamerTrialBold", sans-serif;
-  --font-fkscreamerblack: "FKScreamerTrialBlack", sans-serif;
+  --font-displayregular: "FKScreamerTrialRegular", sans-serif;
+  --font-displaymedium: "FKScreamerTrialMedium", sans-serif;
+  --font-displaybold: "FKScreamerTrialBold", sans-serif;
+  --font-displayblack: "FKScreamerTrialBlack", sans-serif;
 
   /* Addeding Leading Variables */
   --leading-170: 170%;

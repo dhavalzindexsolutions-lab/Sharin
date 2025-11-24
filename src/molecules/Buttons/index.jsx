@@ -4,8 +4,8 @@ const Button = ({
   children,
   variant = "primary",
   size = "md",
-  iconLeft,
-  iconRight,
+  leadingIcon,
+  trailingIcon,
   bg,
   color,
   className = "",
@@ -71,11 +71,11 @@ const Button = ({
   };
 
   const sizeStyles = {
-    sm: "px-2 py-1.5 text-sm rounded-xl font-bold leading-snug",
-    md: "px-4 py-2 text-base rounded-xl font-bold leading-snug",
-    lg: "px-4 py-3 text-lg rounded-xl font-black leading-snug",
-    full: "w-full px-4 py-3 text-lg rounded-xl font-black leading-snug",
-    auto: "px-4 py-3 text-lg rounded-xl font-black leading-snug",
+    sm: "h-8 px-2 py-1.5 text-sm rounded-xl font-bold",
+    md: "h-10 px-4 py-2 text-base rounded-xl font-bold",
+    lg: "h-12 px-4 py-3 text-lg rounded-xl font-black",
+    full: "w-full px-4 py-3 text-lg rounded-xl font-black",
+    auto: "px-4 py-3 text-lg rounded-xl font-black",
   };
 
   const finalClasses = `
@@ -88,21 +88,31 @@ const Button = ({
     transition-all duration-300
   `;
 
+  const Icon = (src) => (
+    <span className="w-5 h-5 flex items-center justify-center">
+      <img src={src} alt="" className="w-5 h-5 object-contain" />
+    </span>
+  );
+
+  const content = (
+    <>
+      {leadingIcon && Icon(leadingIcon)}
+      {children}
+      {trailingIcon && Icon(trailingIcon)}
+    </>
+  );
+
   if (as === "link") {
     return (
       <Link to={to} className={finalClasses} {...props}>
-        {iconLeft && <span className="w-5 h-5">{iconLeft}</span>}
-        {children}
-        {iconRight && <span className="w-5 h-5">{iconRight}</span>}
+        {content}
       </Link>
     );
   }
 
   return (
     <button type={type} className={finalClasses} {...props}>
-      {iconLeft && <span className="w-5 h-5">{iconLeft}</span>}
-      {children}
-      {iconRight && <span className="w-5 h-5">{iconRight}</span>}
+      {content}
     </button>
   );
 };

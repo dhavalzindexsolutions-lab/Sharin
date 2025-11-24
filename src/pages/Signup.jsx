@@ -1,12 +1,13 @@
 import signup_img from "../assets/images/signup-mobile-img.png";
 import googleIcon from "../assets/images/google-icon.svg";
 import facebookIcon from "../assets/images/facebook-icon.svg";
-import SmallHeader from "../molecules/smallHeader";
-import MainTitle from "../molecules/mainTitle";
-import Footer from "../molecules/footer";
 import { Link } from "react-router";
-import Button from "../molecules/button";
+import Button from "../molecules/Buttons";
 import Input from "../molecules/Input";
+import TextBlock from "../molecules/TextBlock";
+import TextLink from "../molecules/TextLink";
+import SmallHeader from "../molecules/Header/SmallHeader";
+import FooterLinks from "../molecules/Footer";
 
 const Signup = () => {
   return (
@@ -21,7 +22,7 @@ const Signup = () => {
               {/* Middle Section */}
               <div className="block max-w-[432px] w-full mx-auto py-8 lg:py-12 px-4">
                 <div className="flex flex-col justify-center items-center h-full">
-                  <MainTitle titleText="Crea il tuo store" />
+                  <TextBlock title="Crea il tuo store" />
 
                   {/* Social Buttons */}
                   <div className="flex flex-col gap-3 w-full max-w-sm mx-auto">
@@ -31,12 +32,8 @@ const Signup = () => {
                       to="/verify-address"
                       size="full"
                       variant="subduded"
+                      leadingIcon={googleIcon}
                     >
-                      <img
-                        src={googleIcon}
-                        alt="googleIcon"
-                        className="size-5"
-                      />
                       Continua con Google
                     </Button>
                     {/* Facebook */}
@@ -45,12 +42,8 @@ const Signup = () => {
                       to="/verify-address"
                       size="full"
                       variant="subduded"
+                      leadingIcon={facebookIcon}
                     >
-                      <img
-                        src={facebookIcon}
-                        alt="facebookIcon"
-                        className="size-5"
-                      />
                       Continua con Facebook
                     </Button>
                   </div>
@@ -63,12 +56,17 @@ const Signup = () => {
                   {/* Email Form */}
                   <div className="w-full">
                     <form className="space-y-4">
-                      <div className="">
-                        <Input type="email" size="lg" placeholder="Inserisci il tuo indirizzo email" variant="outline" error={true} errorMessage="Inserisci un indirizzo email valido" />
+                      <div>
+                        <Input
+                          type="email"
+                          size="lg"
+                          errorMessage="Inserisci un indirizzo email valido"
+                          placeholder="Inserisci il tuo indirizzo email"
+                        />
                       </div>
 
                       {/* Continua */}
-                      <div className="">
+                      <div>
                         <Button
                           as="link"
                           to="/verify-address"
@@ -86,12 +84,7 @@ const Signup = () => {
                     <div className="text-sm text-black">
                       <p>
                         Hai già un account Sharin?{" "}
-                        <Link
-                          to="/create-account"
-                          className="hover:underline font-semibold"
-                        >
-                          Accedi
-                        </Link>
+                        <TextLink size="SM20" label="Accedi" to="/create-account" />
                       </p>
                     </div>
 
@@ -111,7 +104,8 @@ const Signup = () => {
                   </div>
                 </div>
               </div>
-              <Footer />
+
+              <FooterLinks />
             </div>
           </div>
 

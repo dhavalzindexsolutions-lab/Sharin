@@ -1,12 +1,14 @@
 import { useState } from "react";
-// import SmallHeader from "../molecules/Header/SmallHeader";
-import SmallHeader from "../molecules/smallHeader";
-import MainTitle from "../molecules/mainTitle";
-import Footer from "../molecules/footer";
+
 import { Link } from "react-router";
-import Button from "../molecules/button";
 import Input from "../molecules/Input";
 import Checkbox from "../molecules/Checkbox";
+import FieldGroup from "../molecules/FieldGroup";
+import TextBlock from "../molecules/TextBlock";
+import SmallHeader from "../molecules/Header/SmallHeader";
+import FooterLinks from "../molecules/Footer";
+import Button from "../molecules/Buttons";
+
 
 const CreateAccount = () => {
   const [acceptTerms, setAcceptTerms] = useState(false);
@@ -20,44 +22,28 @@ const CreateAccount = () => {
           {/* Middle Section */}
           <div className="block max-w-[432px] w-full mx-auto py-8 lg:py-12 px-4">
             <div className="flex flex-col justify-center items-center h-full">
-              <MainTitle titleText="Crea il tuo account" />
+              <TextBlock title="Crea il tuo account" />
 
               {/* Email Form */}
               <div className="w-full">
                 <form className="space-y-3">
-
-                  <Input
-                    label="Nome"
-                    type="text"
-                    placeholder="Es. Mario"
-                    required
-                    error="Inserisci un nome valido"
-                  />
-
-                  <Input
-                    label="Cognome"
-                    type="text"
-                    placeholder="Es. Rossi"
-                    required
-                    error="Inserisci un cognome valido"
-                  />
-
-                  <Input
+                  <FieldGroup label="Nome">
+                    <Input type="text" size="lg" placeholder="Es. Mario" />
+                  </FieldGroup>
+                  <FieldGroup label="Cognome">
+                    <Input type="text" size="lg" placeholder="Es. Rossi" />
+                  </FieldGroup>
+                  <FieldGroup
                     label="Scegli una password"
-                    helperText="La password deve contenere almeno 8 caratteri"
-                    type="password"
-                    placeholder="••••••••"
-                    required
-                    error="Le password non corrispondono"
-                  />
-
-                  <Input
+                    fieldDescription="La password deve contenere almeno 8 caratteri"
+                  >
+                    <Input type="password" size="lg" placeholder="••••••••••" isPasswordToggle={true}  />
+                  </FieldGroup>
+                  <FieldGroup
                     label="Ripeti password"
-                    type="password"
-                    placeholder="••••••••"
-                    required
-                    error="Le password non corrispondono"
-                  />
+                  >
+                    <Input type="password" size="lg" placeholder="••••••••••" isPasswordToggle={true}  />
+                  </FieldGroup>
 
                   {/* ✅ Replaced default checkbox with CustomCheckbox */}
                   <Checkbox
@@ -87,7 +73,7 @@ const CreateAccount = () => {
             </div>
           </div>
 
-          <Footer />
+          <FooterLinks />
         </div>
       </div>
     </div>

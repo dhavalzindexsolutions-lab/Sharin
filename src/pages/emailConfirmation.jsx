@@ -1,9 +1,6 @@
 import sharingLogo from "../assets/images/sharing-logo.svg";
-import EmailHeader from "../molecules/emailHeader";
-import MainTitle from "../molecules/mainTitle";
-import Footer from "../molecules/footer";
-import { Link } from "react-router";
-import Button from "../molecules/button";
+import Button from "../molecules/Buttons";
+import EmailHeader from "../molecules/Header/emailHeader";
 
 const emailConfirmation = () => {
     return (

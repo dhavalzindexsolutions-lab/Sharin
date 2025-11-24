@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
-import mainLogo from "../assets/images/logo.svg";
-import questionCircle from "../assets/images/question-circle-icon.svg";
+import mainLogo from "../../assets/images/logo.svg";
+import questionCircle from "../../assets/images/question-circle-icon.svg";
+import Button from "../Buttons";
 
 const SmallHeader = () => {
   return (
@@ -19,10 +20,15 @@ const SmallHeader = () => {
 
       {/* Assistance */}
       <div className="inline-block text-sm md:text-16">
-        <Link to="/" className="inline-flex gap-1 hover:underline">
-          <img src={questionCircle} alt="assistance" className="max-w-full" />
-          <strong>Assistenza</strong>
-        </Link>
+        <Button
+          as="link"
+          to="/verify-address"
+          size="md"
+          variant="ghost"
+          leadingIcon={questionCircle}
+        >
+          Assistenza
+        </Button>
       </div>
     </div>
   );
